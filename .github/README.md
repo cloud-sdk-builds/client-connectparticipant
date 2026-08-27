@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-connectparticipant`](https://www.npmjs.com/package/@aws-sdk/client-connectparticipant/v/3.1118.0).
+[`@aws-sdk/client-connectparticipant`](https://www.npmjs.com/package/@aws-sdk/client-connectparticipant/v/3.1119.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-connectparticipant - [https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant](https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant)
-- @aws-sdk/client-connectparticipant v3.1118.0 - [https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant&version=3.1118.0](https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant&version=3.1118.0)
+- @aws-sdk/client-connectparticipant v3.1119.0 - [https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant&version=3.1119.0](https://cloud-sdk-builds.github.io/?sdk=client-connectparticipant&version=3.1119.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1118.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1119.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-oq06K2QFdQfiakyiX0BSr9Xx1wltjoCPnlkq7mlqf0oGcSUbYRFHec2xa2nzo0Hn
+sha384-6ZNXVJM4CZor7aXsdOMIt6crLjuN3afOUiccpPyjV1+HCja2guSlnDT/IfqK7kXc
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-connectparticipant": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1118.0/index.min.mjs"
+            "@aws-sdk/client-connectparticipant": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1119.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1118.0/index.min.mjs": "sha384-oq06K2QFdQfiakyiX0BSr9Xx1wltjoCPnlkq7mlqf0oGcSUbYRFHec2xa2nzo0Hn"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1119.0/index.min.mjs": "sha384-6ZNXVJM4CZor7aXsdOMIt6crLjuN3afOUiccpPyjV1+HCja2guSlnDT/IfqK7kXc"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-connectparticipant": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1118.0/index.min.mjs"
+                        "@aws-sdk/client-connectparticipant": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1119.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1118.0/index.min.mjs": "sha384-oq06K2QFdQfiakyiX0BSr9Xx1wltjoCPnlkq7mlqf0oGcSUbYRFHec2xa2nzo0Hn"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectparticipant@3.1119.0/index.min.mjs": "sha384-6ZNXVJM4CZor7aXsdOMIt6crLjuN3afOUiccpPyjV1+HCja2guSlnDT/IfqK7kXc"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1118.0`)
+* Always pin to a specific version (`@3.1119.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-connectparticipant/blob/refs/tags/3.1118.0/LICENSE
+https://github.com/cloud-sdk-builds/client-connectparticipant/blob/refs/tags/3.1119.0/LICENSE
 ```
 
 ---
